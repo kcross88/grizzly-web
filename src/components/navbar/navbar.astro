@@ -8,29 +8,29 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
 const menuitems = [
   {
-    title: "Features",
+    title: "Services",
     path: "#",
     children: [
-      { title: "Action", path: "/" },
-      { title: "Another action", path: "#" },
-      { title: "Dropdown Submenu", path: "#" },
-      { title: "404 Page", path: "/404" },
+      { title: "General Excavating", path: "/" },
+      { title: "Foundations", path: "/" },
+      { title: "Sidewalks & Driveways", path: "/" },
+      { title: "Patios", path: "/" },
     ],
   },
   {
-    title: "Pricing",
+    title: "Areas Served",
     path: "/pricing",
   },
   {
-    title: "About",
+    title: "About Us",
     path: "/about",
   },
   {
-    title: "Blog",
+    title: "Gallery & Testimonials",
     path: "/blog",
   },
   {
-    title: "Contact",
+    title: "Contact Us",
     path: "/contact",
   },
   // {
@@ -91,15 +91,15 @@ const menuitems = [
           }
         </ul>
         <div class="lg:hidden flex items-center mt-3 gap-4">
-          <Link href="#" style="muted" block size="md">Log in</Link>
-          <Link href="#" size="md" block>Sign up</Link>
+          <Link href="mailto:info@grizzly-excavation.com" style="muted" block size="md">Email</Link>
+          <Link href="tel:15099393102" size="md" block>Phone</Link>
         </div>
       </MenuItems>
     </Astronav>
     <div>
       <div class="hidden lg:flex items-center gap-4">
-        <a href="#">Log in</a>
-        <Link href="#" size="md">Sign up</Link>
+        <a href="mailto:info@grizzly-excavation.com">Email</a>
+        <Link href="tel:15099393102" size="md">Phone</Link>
       </div>
     </div>
   </header>
